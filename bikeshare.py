@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
-CITY_DATA = { 'chicago': 'chicago.csv',
+city_data = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
@@ -89,7 +89,7 @@ def load_data(city, month, day):
     """
 
     # load data file into a dataframe
-    df = pd.read_csv(CITY_DATA[city])
+    df = pd.read_csv(city_data[city])
 
     # convert the Start Time column to datetime
     df['Start Time'] = pd.to_datetime(df['Start Time'])
