@@ -5,7 +5,7 @@
 Exploring bike-share usage data from New York, Chicago and Washington D.C.
 
 ### Description
-Interactive code that takes in the city and timeline of interest of the user and displays key statistics on most frequent times of travel, popular stations and trip duration
+Interactive code that takes in the city and timeline of interest of the user and displays key statistics on most frequent times of travel, popular stations and trip duration. This project has been created in python 3 and includes external modules - numpy, pandas and time.
 
 ### Files used
 bikeshare.py
