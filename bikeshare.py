@@ -1,3 +1,5 @@
+#Interactive code that takes in the city and timeline of interest of the user and
+#displays key statistics on most frequent times of travel, popular stations and trip duration.
 import time
 import pandas as pd
 import numpy as np
